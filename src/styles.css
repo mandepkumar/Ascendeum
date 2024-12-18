@@ -1,0 +1,41 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .blocks{
+        border: 1px solid black;
+  }
+  .row-block {
+    display: flex;
+  }
+  .block {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .Table {
+    table{
+      border: 1px solid black;
+    }
+    thead {
+      padding: 2px 0px;
+    }
+    td {
+      border: 1px solid black;
+      padding: 2px 10px;
+    }
+  }
+  
